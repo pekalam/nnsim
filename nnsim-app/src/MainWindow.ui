@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QMdiArea" name="mdiArea"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNew">
+    <property name="title">
+     <string>New</string>
+    </property>
+    <addaction name="actionNetwork"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow_2">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <widget class="QMenu" name="menuGraph">
+     <property name="title">
+      <string>Graph</string>
+     </property>
+     <addaction name="actionNetwork_error"/>
+     <addaction name="actionNetwork_output"/>
+    </widget>
+    <addaction name="actionVisualization"/>
+    <addaction name="actionTrainer_2"/>
+    <addaction name="actionConsole"/>
+    <addaction name="menuGraph"/>
+   </widget>
+   <widget class="QMenu" name="menuData">
+    <property name="title">
+     <string>Examples</string>
+    </property>
+    <widget class="QMenu" name="menuExamples">
+     <property name="title">
+      <string>Datasets</string>
+     </property>
+     <addaction name="actionSine_function"/>
+     <addaction name="actionIris"/>
+     <addaction name="actionHandwritten_digits"/>
+    </widget>
+    <widget class="QMenu" name="menuApps">
+     <property name="title">
+      <string>Apps</string>
+     </property>
+     <addaction name="actionAppHandwritten_digits"/>
+    </widget>
+    <addaction name="menuExamples"/>
+    <addaction name="actionNetworks"/>
+    <addaction name="menuApps"/>
+   </widget>
+   <widget class="QMenu" name="menuNetwork">
+    <property name="title">
+     <string>Network</string>
+    </property>
+    <widget class="QMenu" name="menuChange_type">
+     <property name="title">
+      <string>Change type</string>
+     </property>
+     <addaction name="actionClassification_network"/>
+     <addaction name="actionRegression_network"/>
+    </widget>
+    <addaction name="menuChange_type"/>
+   </widget>
+   <addaction name="menuNew"/>
+   <addaction name="menuWindow_2"/>
+   <addaction name="menuData"/>
+   <addaction name="menuNetwork"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionNetwork">
+   <property name="text">
+    <string>Network</string>
+   </property>
+  </action>
+  <action name="actionVisualization_window">
+   <property name="text">
+    <string>Visualization window</string>
+   </property>
+  </action>
+  <action name="actionVisualization_window_2">
+   <property name="text">
+    <string>Visualization</string>
+   </property>
+  </action>
+  <action name="actionTrainer">
+   <property name="text">
+    <string>Trainer</string>
+   </property>
+  </action>
+  <action name="actionTerminal">
+   <property name="text">
+    <string>Terminal</string>
+   </property>
+  </action>
+  <action name="actionVisualization">
+   <property name="text">
+    <string>Visualization</string>
+   </property>
+  </action>
+  <action name="actionTrainer_2">
+   <property name="text">
+    <string>Trainer</string>
+   </property>
+  </action>
+  <action name="actionConsole">
+   <property name="text">
+    <string>Console</string>
+   </property>
+  </action>
+  <action name="actionNetwork_error">
+   <property name="text">
+    <string>Network error</string>
+   </property>
+  </action>
+  <action name="actionNetwork_output">
+   <property name="text">
+    <string>Network output</string>
+   </property>
+  </action>
+  <action name="actionSine_function">
+   <property name="text">
+    <string>Sine function</string>
+   </property>
+  </action>
+  <action name="actionClassification_network">
+   <property name="text">
+    <string>Classification network</string>
+   </property>
+  </action>
+  <action name="actionRegression_network">
+   <property name="text">
+    <string>Regression network</string>
+   </property>
+  </action>
+  <action name="actionIris">
+   <property name="text">
+    <string>Iris</string>
+   </property>
+  </action>
+  <action name="actionHandwritten_digits">
+   <property name="text">
+    <string>Handwritten digits</string>
+   </property>
+  </action>
+  <action name="actionNetworks">
+   <property name="text">
+    <string>Networks</string>
+   </property>
+  </action>
+  <action name="actionAppHandwritten_digits">
+   <property name="text">
+    <string>Handwritten digits</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

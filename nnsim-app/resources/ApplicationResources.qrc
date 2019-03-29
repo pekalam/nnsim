@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/net_examples">
+        <file>net_examples/net-1-20-1-TanH.txt</file>
+        <file>net_examples/net 1-20-20-1-TanH.txt</file>
+        <file>net_examples/net 1-20-20-20-1-TanH.txt</file>
+    </qresource>
+    <qresource prefix="/example_data">
+        <file>classification_data/handwritten.txt</file>
+        <file>classification_data/iris.txt</file>
+    </qresource>
+    <qresource prefix="/qml_views">
+        <file>qml_files/handwritten_digits.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,4 @@
+AddInputLayer(1,Linear)
+AddLayer(20,TanH)
+AddLayer(20,TanH)
+AddLayer(1,Linear)
