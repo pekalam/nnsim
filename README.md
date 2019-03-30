@@ -4,3 +4,9 @@ Application uses its own neural network and matrix libraries. To achieve better 
 Currently it offers only basic functionalities because it is still under development.
 
 **Screenshots**
+
+![ScreenShot](https://raw.githubusercontent.com/pekalam/nnsim/master/scrennshots/1.PNG)
+
+![ScreenShot](https://raw.githubusercontent.com/pekalam/nnsim/master/scrennshots/2.PNG)
+
+![ScreenShot](https://raw.githubusercontent.com/pekalam/nnsim/master/scrennshots/3.PNG)
